@@ -44,7 +44,7 @@ function generateMarkdown(data) {
  ## Questions
  ![image](https://github.com/${data.githubUsername}.png?size=200)
  <br>
- If you have any questions about the repo, open an issue or contact me direct at ${data.email}. You can find more of my work at ${data.githubUsername}.
+ If you have any questions about the repo, open an issue or contact me direct at ${data.email}. You can find more of my work at https://github.com/ ${data.githubUsername}.
 `;
 }
 

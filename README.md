@@ -43,4 +43,4 @@
  ## Questions
  ![image](https://github.com/kellykim831.png?size=200)
  <br>
- If you have any questions about the repo, open an issue or contact me direct at kellykim408@gmail.com. You can find more of my work at undefined.
+ If you have any questions about the repo, open an issue or contact me direct at kellykim408@gmail.com. You can find more of my work at kellykim831.
