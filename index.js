@@ -36,7 +36,7 @@ function promptUser() {
         {
             type: "input",
             name: "license",
-            message: "The last section of a good README is a license."
+            message: "Type of license used if any."
         },
         {
             type: "input",
