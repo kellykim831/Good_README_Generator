@@ -1,10 +1,10 @@
 function generateMarkdown(data) {
   return `
-  # ${data.title}
-  ## Description 
-  ${data.description}
-  ## Table of Contents 
-  ${data.tableOfContents}
+ # ${data.title}
+ ## Description 
+ ${data.description}
+ ## Table of Contents 
+ ${data.tableOfContents}
  ## Installation
  ${data.installation}
  ## Usage 
