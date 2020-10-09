@@ -57,4 +57,15 @@ function promptUser() {
 }
 
 
+promptUser()
+    .then(function (answers) {
+        const markdown = generateMarkdown(answers);
 
+        return writeFileAsync("README.md", markdown);
+    })
+    .then(function () {
+        console.log("Successfully wrote to README.md");
+    })
+    .catch(function (err) {
+        console.log(err);
+    });
