@@ -42,6 +42,7 @@ function generateMarkdown(data) {
  <br>
  ## Questions
  ![image](myheadshot.jpg)
+ <br>
  If you have any questions about the repo, open an issue or contact me direct at ${data.email}. You can find more of my work at ${data.username}.
 `;
 }
