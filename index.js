@@ -1,3 +1,5 @@
+
+
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
@@ -46,7 +48,7 @@ function promptUser() {
         {
             type: "input",
             name: "questions",
-            message: "List any questions here."
+            message: "What is your GitHub username and email?"
         }
     ]);
 }
