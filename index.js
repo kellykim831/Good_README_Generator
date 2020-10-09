@@ -54,11 +54,6 @@ function promptUser() {
             type: "input",
             name: "tests",
             message: "Write instructions on how to run your test."
-        },
-        {
-            type: "input",
-            name: "questions",
-            message: "What is your GitHub username and email?"
         }
     ]);
 }
