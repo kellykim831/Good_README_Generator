@@ -1,11 +1,13 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+//this is to connect the generateMarkdown.js file
 const generateMarkdown = require("./generateMarkdown");
 
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+//create function that will present prompts to populate the readme file
 function promptUser() {
     return inquirer.prompt([
         {
@@ -56,7 +58,7 @@ function promptUser() {
     ]);
 }
 
-
+//the answers typed inside the integrated terminal will be plugged into the readme.md file.
 promptUser()
     .then(function (answers) {
         const markdown = generateMarkdown(answers);

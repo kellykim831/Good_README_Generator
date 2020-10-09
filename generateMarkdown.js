@@ -1,3 +1,5 @@
+//this is the function to call generateMarkdown and plug in all of its data into the correct slots.
+
 function generateMarkdown(data) {
   return `
  # ${data.title}
