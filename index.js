@@ -10,7 +10,7 @@ function promptUser() {
     return inquirer.prompt([
         {
             type: "input",
-            name: "username",
+            name: "githubUsername",
             message: "What is your Github username?"
         },
         {
