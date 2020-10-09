@@ -1,10 +1,10 @@
 
- # good readme generator
+ # Good README Generator
 
  ![GitHub license](https://img.shields.io/badge/license-MIT-purple.svg)
  
  ## Description 
- faslkdjflkasjdflkadsjfkadsjf
+ The Good README Generator was created through a command-line application that dynamically generates a README.md from a user's input. The application was invoked with the command node.js. When running this application, the user is prompted for their GitHub username and other information pertaining to the project the README is for. You will notice that the README is populated with the following: a badge, project title, description, table of contents, installation, usage, license, contributing, tests and questions.
  <br>
  <br>
  <br>
@@ -21,26 +21,26 @@
  <br>
  <br>
  ## Installation
- falsdkfjlkdsajfalks
+ You will need VS code and the dependencies are inquirer and dotenv.
  <br>
  <br>
  ## Usage 
- aflsdkfjksadfjsdakl
+ A command-line application will allow for quick and easy generation of a project README to get started quickly. This allows a project creator to spend more time working on finishing the project and less time creating a good README.Perfect to use on all of your projects for a quick, efficient README.
  <br>
  <br>
  ## License
- fjaldskjflksadfj
+ This project is licensed under the MIT License.
  <br>
  <br>
  ## Contributing
- asdlfkjadslkfj
+ Kelly Kim
  <br>
  <br>
  ## Tests
- alksdjfkldsa
+ Open VS code, right click and open in integrated terminal. Type node index.js and run the file. Answer all the prompts and it will quickly plug in all of your data into the correct sections of the README template. 
  <br>
  <br>
  ## Questions
- https://github.com/kellykim831.png?size=200
+ ![image](https://github.com/kellykim831.png?size=200)
  <br>
  If you have any questions about the repo, open an issue or contact me direct at kellykim408@gmail.com. You can find more of my work at undefined.
