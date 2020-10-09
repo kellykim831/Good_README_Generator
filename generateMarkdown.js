@@ -14,9 +14,11 @@ function generateMarkdown(data) {
  <br>
  * [Usage](#usage)
  <br>
- * [Credits](#credits)
+ * [Contributing](#contributing)
  <br>
- * [License](#license)
+ * [Tests](#tests)
+ <br>
+ * [Questions](#questions)
  <br>
  <br>
  ${data.installation}

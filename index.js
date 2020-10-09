@@ -12,6 +12,16 @@ function promptUser() {
     return inquirer.prompt([
         {
             type: "input",
+            name: "username",
+            message: "What is your Github username?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is your email address?"
+        },
+        {
+            type: "input",
             name: "title",
             message: "Enter your readme title."
         },
